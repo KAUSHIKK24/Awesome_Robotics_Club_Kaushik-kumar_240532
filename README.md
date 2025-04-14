@@ -46,8 +46,11 @@ Using parent I get the last point of a path . and using recursion I get the the 
 
 
 INPUT FORMAT
+
 Input contain 10 lines and each lines contain 10 characters separated by space.
+
 Example of INPUT:-
+
 S . . . . ~ . . ^ .
 
 # # # . . ~ # . ^ .
