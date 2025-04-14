@@ -23,6 +23,7 @@ Initially all the element are intialised with infinity. After that if I found an
 
 
 Running of code 
+
 Initially all distancegrid is infinity and visited is 0.
 
 Initially I visited the first box and give distancegrid =0 for it.
