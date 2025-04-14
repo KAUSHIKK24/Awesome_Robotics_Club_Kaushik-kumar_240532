@@ -13,6 +13,7 @@ G	Goal	0
 ~	Mud(slow)	3
 ^	Hill (very slow)	5
 It is an interger array.
+
 3)	Distancegrid :- It is also an integer array. It contain the  least cost to reach that point.
 Initially all the element are intialised with infinity. After that if I found any route to reach that point at least cost then I update the value.
 
