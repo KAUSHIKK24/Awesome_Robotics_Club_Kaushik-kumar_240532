@@ -24,32 +24,55 @@ Initially all the element are intialised with infinity. After that if I found an
 
 Running of code 
 Initially all distancegrid is infinity and visited is 0.
-Initially I visited the first box and give distancegrid =0 for it. 
+
+Initially I visited the first box and give distancegrid =0 for it.
+
 As I visited a point convert corresponding box  visited array to 1.
+
 Then I move in all 4 direction to discover new way to reach other points .
+
  If I reached a point with distancegrid , that is more than  value previous distancegrid + grid value of visited point then , parent of new point is previous point   and distancegrid of new point is modified  that is the minimum of the twos that we compared .
+ 
  If if I reached a point with distancegrid , that is less than previous distancegrid + grid value of visited point then nothing will change. 
+
+ 
 As we visit all the points of grid one by one the distance grid , parent , visited , updated everytime if condition is satisfied .
 Finally we have main two structure one is distancegrid and other is parent . 
+
 Using distance grid I can get the  minimum cost to reach any point. 
+
 Using parent I get the last point of a path . and using recursion I get the the whole path.
+
 
 
 INPUT FORMAT
 Input contain 10 lines and each lines contain 10 characters separated by space.
 Example of INPUT:-
 S . . . . ~ . . ^ .
+
 # # # . . ~ # . ^ .
+
 . . . # . . # . . .
+
 . ~ ~ # . . . . . .
+
 . . . . . # # # # .
+
 ^ ^ . . . . . . ~ .
+
 # . . . . # ~ ~ ~ .
+
 . . # # . . . . . .
+
 . . . . . ^ ^ ^ ^ G
+
 . # # # # # # . . .
+
 OUTPUT FORMAT
+
 Output gives minimum cost and path to that point using coordinate of all points on path.
+
  Example of OUTPUT:--   MINIMUM COST TO REACH END POINT : 16
+ 
 PATH USED BY ROBOT : (0, 0) ->(0, 1) ->(0, 2) ->(0, 3) ->(0, 4) ->(1, 4) ->(2, 4) ->(2, 5) ->(3, 5) ->(3, 6) ->(3, 7) ->(3, 8) ->(3, 9) ->(4, 9) ->(5, 9) ->(6, 9) ->(7, 9) ->(8, 9)
 
