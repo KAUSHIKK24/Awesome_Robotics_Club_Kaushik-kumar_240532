@@ -1,7 +1,12 @@
 # Awesome_Robotics_Club_Kaushik-kumar_240532
 The code is based on Dijkstra Pathfinding Optimization . 
+
+TYPES OF MATRIX USED
+
 In this code , I initialise 5 10*10   matrix
+
 1)	Maingrid:-In this I store the input given by user . this is an character array.
+
 2)	Grid:- In this I store the values of correspoending  symbols. That is given in question 
 
 	
@@ -12,6 +17,7 @@ G	Goal	0
 #	Wall (impassable)	-1
 ~	Mud(slow)	3
 ^	Hill (very slow)	5
+
 It is an interger array.
 
 3)	Distancegrid :- It is also an integer array. It contain the  least cost to reach that point.
@@ -22,7 +28,7 @@ Initially all the element are intialised with infinity. After that if I found an
 
 
 
-Running of code 
+RUNNING OF CODE
 
 Initially all distancegrid is infinity and visited is 0.
 
